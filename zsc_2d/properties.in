@@ -1,0 +1,14 @@
+MaxSteps
+12000
+tStats, tDump, delt
+1000, 200, 0.5D0
+xmin, xmax, ymin, ymax
+1, 160, 1, 320
+rhoL, rhoH
+1.0D0, 1000.0D0
+tauRho, taPhiu
+0.75D0, 0.85D0
+IntWidth, sigma, Gamma
+1.0D0, 0.1D0, 40000.0D0
+pConv
+1.50d-2

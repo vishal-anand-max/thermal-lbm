@@ -1,0 +1,21 @@
+# ZSC 3D Fixed - Laplace Law Test (quick sanity check)
+# MaxStep
+20000
+# tStat, tDump, xjump
+500 2000 1
+# xmin, xmax, ymin, ymax, zmin, zmax (periodic box 64^3)
+1 64 1 64 1 64
+# rhoL, rhoH
+787.0 1000.0
+# tauRho, tauPhi
+1.0 0.7
+# IntWidth, sigma, Gamma
+5.0 0.001 40.0
+# Eo, pConv (Eo=0 means no gravity for Laplace test)
+0.0 1.0D-8
+# sinthita, costhita (no gravity)
+0.0 0.0
+# geom_mode (3=Laplace test, periodic box)
+3
+# u_inlet_max (not used for Laplace)
+0.0

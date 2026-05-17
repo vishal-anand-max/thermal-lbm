@@ -1,0 +1,21 @@
+# ZSC 3D Fixed - Straight Channel Validation (Sudhakar Fig 1f baseline)
+# MaxStep
+100000
+# tStat, tDump, xjump
+1000 5000 1
+# xmin, xmax, ymin, ymax, zmin, zmax  (channel: 52x52x302 with walls at edges)
+1 52 1 52 1 302
+# rhoL, rhoH (kerosene/water from Sudhakar)
+787.0 1000.0
+# tauRho, tauPhi
+1.0 0.7
+# IntWidth, sigma, Gamma
+5.0 0.001 40.0
+# Eo, pConv
+10.0 1.0D-6
+# sinthita, costhita (gravity in -z only: sin=1, cos=0)
+1.0 0.0
+# geom_mode (1=straight channel, 2=U-bend, 3=Laplace test)
+1
+# u_inlet_max (inlet velocity; 0 for buoyancy-only rise)
+0.0

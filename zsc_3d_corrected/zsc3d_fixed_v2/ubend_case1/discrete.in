@@ -1,0 +1,8 @@
+# Bubble/drop positions (x, y, z, radius)
+# Taylor drop positioned in the inlet arm, near the top
+# Inlet arm center x = xmin + 1 + a/2 = 1 + 1 + 50 = 52
+# y-center = (ymin+ymax)/2 = 52
+# z near top of arm (zmax - 3*radius)
+1
+# nBubbles
+52.0 52.0 300.0 30.0

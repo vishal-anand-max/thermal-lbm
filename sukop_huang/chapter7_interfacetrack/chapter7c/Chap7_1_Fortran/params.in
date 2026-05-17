@@ -1,0 +1,12 @@
+0.251     ! psi_max
+0.024     ! psi_min
+0.251     ! psi_max0 <psi_max
+0.024     ! psi_min0 >psi_min
+0.12      ! rho_h
+0.04      ! rho_l
+-------------------
+256.      ! Re
+0.04      ! V1 characteristic vel.
+20000     ! t_max
+1600      ! Nwri
+0.01      ! Kappa

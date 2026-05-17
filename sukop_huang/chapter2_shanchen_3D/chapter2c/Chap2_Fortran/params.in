@@ -1,0 +1,5 @@
+15.         ! RR droplet radius
+0.12        ! rho_w, density of wall
+1.0         ! tau(1)
+10000       ! maximum time step
+500         ! Nwri: output every Nwri time steps!
